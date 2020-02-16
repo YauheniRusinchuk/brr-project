@@ -1,0 +1,113 @@
+.home-container {
+
+}
+
+.home-container .home-main-menu {
+  width: 300px;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  /*background-color: #a7a7a7;*/
+  /*background-color: #707070;*/
+  background-color: #dbdbdb;
+}
+
+.home-main-menu-search  {
+  padding: 20px;
+  text-align: center;
+}
+
+
+
+.home-main-menu-search input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  background-color: inherit;
+  border: 2px solid #949494;
+  outline: none;
+  color: #949494;
+}
+
+.home-main-menu-search input::placeholder {
+  color: #949494;
+}
+
+.home-main-list-contacts {
+  width: 100%;
+  padding: 10px;
+}
+
+.home-main-list-contacts .home-main-contact {
+  margin-bottom: 5px;
+  padding: 10px;
+  display: flex;
+  justify-content: flex-start;
+  border-bottom: 1px solid #d4d4d4;
+}
+
+.home-main-contact img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid #949494;
+  box-shadow: 0 20px 50px #949494;
+}
+
+.home-main-contact-info {
+  margin-left: 10px;
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.home-main-contact-info a {
+  text-decoration: none;
+  color: #949494;
+  font-size: 14px;
+  font-weight: bold;
+
+}
+
+
+
+.online, .offline {
+  font-size: 12px;
+  margin-top: 5px;
+  font-weight: normal;
+}
+
+.online {
+  color: #18a86c;
+}
+
+.offline {
+  color: #fc5d5d;
+}
+
+
+.home-btn-logout {
+  text-align: center;
+  margin-top: 30px;
+}
+
+
+.home-btn-logout .btn-logout {
+  background-color: #949494;
+  border: 2px solid #949494;
+  font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

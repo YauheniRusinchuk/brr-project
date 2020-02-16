@@ -1,0 +1,32 @@
+.login-container {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  text-align: center;
+}
+
+.login-container h2 {
+  color: #e6e6e6;
+}
+
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form input {
+  margin: 20px 0;
+  padding: 10px;
+  border: 2px solid #949494;
+  border-radius: 4px;
+  outline: none;
+}
+
+.btn-login {
+  box-shadow: 0 0 10px #e6e6e6;
+}
