@@ -1,11 +1,28 @@
 const initialState = {
   user: null,
-  isAuthenticated: true,
+  isAuthenticated: false,
   error: false,
-  token: null
+  token: null,
+  loading: false,
 }
 
 
 export default function(state = initialState, action) {
-  return state;
+
+  switch (action.type) {
+    case "LOGOUT_ACTION":
+      return {
+        user: null,
+        isAuthenticated: false,
+        error: false,
+        token: null
+      }
+    case "LOGIN_ACTION":
+      return {
+        ...state,
+        isAuthenticated: true
+      }  
+    default:
+      return state;
+  }
 }

@@ -1,0 +1,77 @@
+.main-page-container {
+  position: fixed;
+  left: 300px;
+  width: 100%;
+  height: 100vh;
+}
+
+
+.main-page-container .main-page-wrapper {
+    margin-top: 50px;
+    padding: 10px;
+    width: 80%;
+    height: 70%;
+    background-color: #fbfbfb;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    /* background-color: white; */
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.main-page-container .main-page-wrapper::-webkit-scrollbar {
+  width: 5px;
+}
+
+.main-page-container .main-page-wrapper::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: grey;
+}
+
+.main-page-chat {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-start;
+  margin: 20px;
+}
+
+.main-page-chat p {
+  display: inline;
+  padding: 10px;
+  margin: 5px 5px 0;
+  background-color: #76ab88;
+  border-radius: 4px;
+  font-size: 14px;
+  color: white;
+  font-weight: bold;
+}
+
+.form-new-message {
+  /* padding: 10px; */
+  margin: 20px 0;
+}
+
+.form-new-message input {
+  width: 60%;
+  background-color: #fafafa;
+  font-size: 14px;
+  padding: 20px;
+  border: none;
+  border-radius: 4px;
+  color:black;
+  outline: none;
+  border: 1px solid white;
+}
+
+.form-new-message input:focus {
+  border: 1px solid grey;
+}
+
+
+.form-new-message input::placeholder {
+  color: grey;
+}
+
+

@@ -1,5 +1,5 @@
 .login-container {
-  width: 300px;
+  width: 400px;
   height: 300px;
   position: absolute;
   left: 50%;
@@ -28,5 +28,10 @@
 }
 
 .btn-login {
-  box-shadow: 0 0 10px #e6e6e6;
+  padding: 10px;
+  background-color: white;
+  border: 2px solid #949494;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #949494;
 }

@@ -1,0 +1,12 @@
+.modal-container {
+  width: 500px;
+  height: 300px;
+  /* border: 1px solid grey; */
+  border-radius: 4px;
+  position: fixed;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  box-shadow: 0 0 30px #949494;
+}
