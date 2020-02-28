@@ -12,7 +12,9 @@ const initialState = {
     {id: 10, firstName: "Eugene", lastName: "Rusinchuk", active: false},
   ],
 
-  currentChat: {id: 1, firstName: "Eugene", lastName: "Rusinchuk", active: false},
+  //currentChat: {id: 1, firstName: "Eugene", lastName: "Rusinchuk", active: false},
+
+  currentChat: null,
 
 }
 

@@ -9,7 +9,7 @@ import {LoginAction} from '../../actions/authActions'
 const Login = ({loginHandler}) => {
   return (
     <div className='login-container'>
-      <h2>WELCOME TO CHAT</h2>
+      <h2>HELLO, EVERYONE</h2>
       <form className='login-form'>
         <input type='email' placeholder="Email ..." />
         <input type="password" placeholder="Password ..." />

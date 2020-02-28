@@ -126,6 +126,21 @@
 }
 
 
+.not-choice-chat {
+  width: 80%;
+}
+
+.not-choice-chat p {
+  /* border: 1px solid grey; */
+  margin-top: 200px;
+  text-align: center;
+  font-size: 22px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+
+
 
 
 
