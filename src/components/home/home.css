@@ -25,18 +25,32 @@
   padding: 10px;
   border-radius: 4px;
   background-color: inherit;
-  border: 2px solid #949494;
+  border: 1px solid black;
   outline: none;
-  color: #949494;
+  color: black;
 }
 
 .home-main-menu-search input::placeholder {
-  color: #949494;
+  color: black;
 }
 
 .home-main-list-contacts {
   width: 100%;
   padding: 10px;
+  height: 70%;
+  /* background-color: #fbfbfb; */
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.home-main-list-contacts::-webkit-scrollbar {
+  width: 5px;
+}
+
+.home-main-list-contacts::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: grey;
+
 }
 
 .home-main-list-contacts .home-main-contact {
@@ -63,12 +77,12 @@
   justify-content: center;
 }
 
-.home-main-contact-info a {
+.home-main-contact-info p {
   text-decoration: none;
-  color: #949494;
-  font-size: 14px;
+  color: black;
+  font-size: 12px;
   font-weight: bold;
-
+  cursor: pointer;
 }
 
 
@@ -98,16 +112,16 @@
 .home-btn-logout .btn-logout {
   /* background-color: #949494; */
   background-color: white;
-  border: 2px solid #949494;
+  border: 2px solid black;
   font-size: 12px;
   font-weight: bold;
-  color: #949494;
+  color: black;
   transition-property: background-color, color;
   transition-duration: 0.5s;
 }
 
 .home-btn-logout .btn-logout:hover {
-  background-color: #949494;
+  background-color: black;
   color: white;
 }
 

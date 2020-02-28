@@ -10,3 +10,15 @@
   background-color: white;
   box-shadow: 0 0 30px #949494;
 }
+
+
+.modal-container .close-modal {
+  position: absolute;
+  top: -40px;
+  right: -40px;
+  color: red;
+  border-radius: 50%;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
