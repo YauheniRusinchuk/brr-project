@@ -19,6 +19,7 @@ function ListMessage() {
       <Message />
       <Message />
       <Message />
+      <Message />
     </div>
   )
 }

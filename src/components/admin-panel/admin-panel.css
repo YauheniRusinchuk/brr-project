@@ -1,0 +1,38 @@
+.admin-panel-container {
+  
+}
+
+
+.admin-panel-container .admin-panel-list-users-in-app {
+  width: 30%;
+  height: 400px;
+  box-shadow: 0 0 20px #e6e6e6;
+  margin: 20px;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.admin-panel-list-wrapper {
+  width: 100%;
+  padding: 10px;
+  height: 100%;
+  /* background-color: #fbfbfb; */
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+
+.admin-panel-list-wrapper p {
+  margin: 20px;
+}
+
+
+.admin-panel-list-wrapper::-webkit-scrollbar {
+  width: 5px;
+}
+
+.admin-panel-list-wrapper::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: grey;
+
+}

@@ -5,6 +5,8 @@ import {useSelector, useDispatch} from 'react-redux'
 
 import {LoginAction} from '../../actions/authActions'
 
+import Button from '../../shared/button'
+
 
 const Login = ({loginHandler}) => {
   return (
@@ -13,7 +15,8 @@ const Login = ({loginHandler}) => {
       <form className='login-form'>
         <input type='email' placeholder="Email ..." />
         <input type="password" placeholder="Password ..." />
-        <button onClick={loginHandler} className='btn-login'>LOGIN CLICK!</button>
+        {/* <button onClick={loginHandler} className='btn-login'>LOGIN CLICK!</button> */}
+        <Button onClick={loginHandler} className='btn-login' name={"LOGIN"}/>
       </form>
     </div>
   )
