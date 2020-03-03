@@ -4,19 +4,24 @@ import './current-chat.css'
 
 import Modal from '../modal'
 
-import {useSelector} from 'react-redux'
+import {useSelector, useDispatch} from 'react-redux'
 
+import {openModalWithCurrentUser} from '../../actions/opneModalCurrent'
 
 
 function CurrentChat() {
-  const [modal, setModal] = useState(false);
+  
+  const {isOpen} = useSelector(state => state.modal)
   const {currentChat} = useSelector(state => state.contacts)
   const {id, firstName, lastName} = currentChat
 
+  const dispatch = useDispatch()
+  
+
   return (
     <div className='current-chat-container'>
-      {modal && <Modal />}
-    <p>This is a chat with <span onClick={(e) => setModal(true)}>{firstName} {lastName}</span></p>
+      {isOpen && <Modal />}
+    <p>This is a chat with <span onClick={()=>{dispatch(openModalWithCurrentUser(id))}}>{firstName} {lastName}</span></p>
     </div>
   )
 }
