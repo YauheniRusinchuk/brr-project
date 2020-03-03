@@ -2,37 +2,26 @@
   
 }
 
-
-.admin-panel-container .admin-panel-list-users-in-app {
-  width: 30%;
-  height: 400px;
-  box-shadow: 0 0 20px #e6e6e6;
-  margin: 20px;
+.admin-panel-container .admin-panel-wrapper {
+  width: 80%;
+  height: 200px;
   border-radius: 4px;
-  padding: 10px;
+  margin: 20px auto;
+  display: flex;
 }
 
-.admin-panel-list-wrapper {
-  width: 100%;
-  padding: 10px;
-  height: 100%;
-  /* background-color: #fbfbfb; */
-  overflow-x: hidden;
-  overflow-y: scroll;
+.admin-wrapper-item {
+  width: 50%;
+  margin: 5px;
+  box-shadow: 0 0 30px #e6e6e6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-
-.admin-panel-list-wrapper p {
-  margin: 20px;
-}
-
-
-.admin-panel-list-wrapper::-webkit-scrollbar {
-  width: 5px;
-}
-
-.admin-panel-list-wrapper::-webkit-scrollbar-thumb {
-  border-radius: 5px;
-  background-color: grey;
-
+.admin-wrapper-item p {
+  font-size: 44px;
+  font-weight: bold;
+  color: #18a86c;
 }
